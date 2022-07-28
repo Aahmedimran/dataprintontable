@@ -49,7 +49,7 @@
     document.write(`<th> Phone#  </th>`);
      document.write(`<th> Genders  </th>`);
      document.write(`<th> Emails </th>`);
-     for(let i = 0; i<5; i++){
+     for(let i = 0; i<firstNames.length; i++){
           document.write ("<tr>");
            document.write(`<td>${[i+1]}  </td>`); 
            document.write(`<td> 00${[i+1]}  </td>`); 
