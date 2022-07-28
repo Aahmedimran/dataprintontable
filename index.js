@@ -1,6 +1,6 @@
 
        let firstNames = [
-        "",
+        
         "Mohsin",
         "Ahmad",
         "Sarib",
@@ -8,7 +8,7 @@
         "Atif"
        ]
        let secondNames = [
-        "",
+       
         "Ghani",
         "Ahmad",
         "Ghouri",
@@ -16,7 +16,7 @@
         "Ahmed"
        ]
        let phones = [
-        "",
+       
         "03123456789",
         "03123456789",
         "03123456789",
@@ -24,7 +24,7 @@
         "03123456789"
        ]
        let genders =  [
-        "",
+       
         "Male",
         "Male",
         "Male",
@@ -32,7 +32,7 @@
         "Male"
        ]
        let emails =  [
-        "",
+       
         "mohsinghani.777@gmail.com",
         "ahmed.eng2709@gmail.com",
         "Sarib@abc.com",
@@ -49,10 +49,10 @@
     document.write(`<th> Phone#  </th>`);
      document.write(`<th> Genders  </th>`);
      document.write(`<th> Emails </th>`);
-     for(let i = 1; i<=5; i++){
+     for(let i = 0; i<5; i++){
           document.write ("<tr>");
-           document.write(`<td>${[i]}  </td>`); 
-           document.write(`<td> 00${[i]}  </td>`); 
+           document.write(`<td>${[i+1]}  </td>`); 
+           document.write(`<td> 00${[i+1]}  </td>`); 
            document.write(`<td> ${firstNames[i]}  </td>`); 
            document.write(`<td> ${secondNames[i]}  </td>`); 
            document.write(`<td> ${phones[i]}  </td>`);
